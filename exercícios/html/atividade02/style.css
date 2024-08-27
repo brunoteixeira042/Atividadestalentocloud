@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo da barra de navegação */
+.nav-list {
+    background-color: #0044cc;
+    padding: 10px;
+}
+
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list ul li {
+    margin: 0 15px;
+}
+
+.nav-list ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-list ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #0044cc;
+}
+
+/* Estilo do conteúdo principal */
+main p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+main h2 {
+    font-size: 1.8em;
+    color: #0044cc;
+    margin-bottom: 10px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+footer img {
+    width: 40px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+footer img:hover {
+    opacity: 0.7;
+}
